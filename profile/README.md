@@ -18,11 +18,8 @@ macOS: `curl -fsSL https://vanthlabs.org/install-mac.sh | bash`. Windows: `irm h
 
 | Repo | What it is |
 | --- | --- |
-| [workspace](https://github.com/Vanth-Labs/workspace) | The launcher, the setup guide and the map of everything below. Start here. |
-| [desktop](https://github.com/Vanth-Labs/desktop) | The Electron overlay that floats over every window. [Releases](https://github.com/Vanth-Labs/desktop/releases). |
-| [backend](https://github.com/Vanth-Labs/backend) | The pipeline server: ASR, LLM, TTS, lip-sync, motion, and the local sidecars. |
-| [frontend](https://github.com/Vanth-Labs/frontend) | Her face: a VRM avatar in three.js with lip-sync, expressions, gaze and gestures. |
-| [motion-model](https://github.com/Vanth-Labs/motion-model) | Our text-to-motion model, training and serving. The part nobody else had. |
+| [hannah](https://github.com/Vanth-Labs/hannah) | Hannah herself: the pipeline server (`backend/`), the avatar (`frontend/`), the Electron overlay (`desktop/`), the launchers and the setup guide. Start here. [Releases](https://github.com/Vanth-Labs/hannah/releases). |
+| [motion-model](https://github.com/Vanth-Labs/motion-model) | Our text-to-motion model: training, evaluation and the serving package Hannah installs. Weights on [Hugging Face](https://huggingface.co/Vanth-Labs/hannah-motion). |
 | [agent](https://github.com/Vanth-Labs/agent) | Her hands: multi-step tasks on your machine, with permission before anything risky. |
 | [site](https://github.com/Vanth-Labs/site) | vanthlabs.org and the installers. |
 
