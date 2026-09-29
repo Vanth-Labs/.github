@@ -1,30 +1,51 @@
 <p align="center">
-  <a href="https://vanthlabs.org"><img src="https://vanthlabs.org/assets/vanth-wordmark-2048-dark.png" alt="Vanth Labs" width="420"></a>
+  <a href="https://vanthlabs.org/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vanth-Labs/.github/main/profile/assets/logo-blanco.svg">
+      <img src="https://raw.githubusercontent.com/Vanth-Labs/.github/main/profile/assets/logo-oliva.svg" alt="Vanth Labs" width="320">
+    </picture>
+  </a>
 </p>
 
-<p align="center">We build AI that has a body and stays on your machine.</p>
+<p align="center"><strong>Ideas that become software.</strong><br>Independent software lab · Lima, Peru</p>
 
-## Hannah
+<p align="center">
+  <a href="https://vanthlabs.org/">Website</a> ·
+  <a href="mailto:hello@vanthlabs.org">Contact</a>
+</p>
 
-Hannah is an open source AI assistant with a voice, a 3D body and hands. She runs on your own computer, talks back in real time, gestures while she speaks (a text-to-motion model we trained turns each sentence into body language), and acts on your machine with your permission. MIT-licensed. Linux, macOS and Windows.
+We build software around people and the problems they face every day. Hannah and Complia are our first two projects: different tools, the same care for how they work and who they serve.
 
-```bash
-curl -fsSL https://vanthlabs.org/install.sh | bash
-```
+## Our projects
 
-macOS: `curl -fsSL https://vanthlabs.org/install-mac.sh | bash`. Windows: `irm https://vanthlabs.org/install.ps1 | iex`. Everything she needs, on [vanthlabs.org](https://vanthlabs.org).
+### Hannah — an assistant with presence
 
-## The repos
+An open-source AI assistant with a voice and a 3D avatar. Hannah talks in real time, moves as she speaks, and carries out tasks on your computer with your permission. Run models locally or choose a cloud provider. Available for Linux, macOS and Windows, under the MIT license.
 
-| Repo | What it is |
+[Meet Hannah](https://hannah.vanthlabs.org/) · [Source code](https://github.com/Vanth-Labs/hannah) · [Releases](https://github.com/Vanth-Labs/hannah/releases)
+
+### Complia — every decision, its evidence
+
+Software for real-estate businesses in Peru to organize anti-money-laundering and counter-terrorist-financing work (PLAFT). Complia brings case files, supporting evidence and review records together so teams can document their decisions and follow up on their work.
+
+Complia supports human review; it does not provide legal advice or certify compliance.
+
+[Meet Complia](https://complia.vanthlabs.org/)
+
+## Built in the lab
+
+Hannah's open-source components are available here on GitHub:
+
+| Repository | What you'll find |
 | --- | --- |
-| [hannah](https://github.com/Vanth-Labs/hannah) | Hannah herself: the pipeline server (`backend/`), the avatar (`frontend/`), the Electron overlay (`desktop/`), the launchers and the setup guide. Start here. [Releases](https://github.com/Vanth-Labs/hannah/releases). |
-| [motion-model](https://github.com/Vanth-Labs/motion-model) | Our text-to-motion model: training, evaluation and the serving package Hannah installs. Weights on [Hugging Face](https://huggingface.co/Vanth-Labs/hannah-motion). |
-| [agent](https://github.com/Vanth-Labs/agent) | Her hands: multi-step tasks on your machine, with permission before anything risky. |
-| [site](https://github.com/Vanth-Labs/site) | vanthlabs.org and the installers. |
+| [hannah](https://github.com/Vanth-Labs/hannah) | The assistant: backend, avatar, desktop app, launchers and setup guide. |
+| [motion-model](https://github.com/Vanth-Labs/motion-model) | Our text-to-motion model, turning speech into body language. Training and serving code. |
+| [agent](https://github.com/Vanth-Labs/agent) | The agent behind Hannah's actions on your computer. |
 
-## Vanth Labs
+## The people behind Vanth Labs
 
-Two people in Lima, Peru, founded in 2026. [About us](https://vanthlabs.org/about/) and the [brand and press kit](https://vanthlabs.org/brand/).
+Founded by **Pedro Chavez** and **Marlow Ariza** in Lima, Peru. We turn questions into prototypes, and prototypes into tools people can use.
 
-hello@vanthlabs.org for anything, security@vanthlabs.org for vulnerabilities, sales@vanthlabs.org if you want Hannah as your brand's character.
+[About the lab](https://vanthlabs.org/en/#nosotros) · [hello@vanthlabs.org](mailto:hello@vanthlabs.org)
+
+For security reports: [security@vanthlabs.org](mailto:security@vanthlabs.org).
