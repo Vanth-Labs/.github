@@ -11,6 +11,7 @@
 
 <p align="center">
   <a href="https://vanthlabs.org/">Website</a> ·
+  <a href="https://www.linkedin.com/company/vanthlabs/">LinkedIn</a> ·
   <a href="mailto:hello@vanthlabs.org">Contact</a>
 </p>
 
